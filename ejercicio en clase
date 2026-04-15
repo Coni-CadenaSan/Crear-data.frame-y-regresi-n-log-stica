@@ -1,4 +1,8 @@
 #Regresión logistica en R
+#variable dependiente: gustan_gatos: 0=no, 1=si
+#variables independientes: felicidad: 0=no, 1=sí
+#mujeres: 0=hombres, 1=mujeres
+
 datos<-data.frame(
   gustan_gatos=c(0,1,0,1,1,1,0,1,0,1),
   felicidad=c(0,1,1,1,1,0,0,1,0,1),
